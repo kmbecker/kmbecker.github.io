@@ -43,3 +43,17 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+.liri {
+  width: 100%;
+  padding-top: 4%;
+}
+
+.sinus {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.btn{
+  margin-bottom: 10px;
+}
