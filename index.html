@@ -7,26 +7,26 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 	<body>
-		
+	<div class="anchor" id="about"></div>
 		<!-- Menu Bar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-		<a class="navbar-brand" href="index.html">Kyle Becker</a>
+		<a class="navbar-brand" href="#about">Kyle Becker</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-			<a class="nav-link" href="index.html">Home</a>
+			<li class="nav-item">
+			<a class="nav-link" href="#about">Home</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="skills.html">Skills</a>
+			<a class="nav-link" href="#skills">Skills</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="portfolio.html">Portfolio</a>
+			<a class="nav-link" href="#portfolio">Portfolio</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="contact.html">Contact</a>
+			<a class="nav-link" href="#contact">Contact</a>
 			</ul>
 			<span class="navbar-text">
 			<ul>
@@ -42,6 +42,10 @@
 	</nav>
 	<!-- End Menu Bar -->
 </div>	
+<!-- Website container -->
+<div class="container"></div>
+
+<!-- About Me -->
 	<div class="jumbotron">
 	<div class="col-md-2"><img class="homepagePhoto" src="styles/images/self2.jpg"></div>
 	<div class="col-md-10">
@@ -52,13 +56,133 @@
   		started in my coding adventure, you can read a little more about me below, or check
   		out the links above.
 
-  		<p>Since I was middle school, I've had an interest in web development. Throughout 	middle school, I independently worked with basic HTML, CSS, and CMS templating 	engines. By high school, my passion for technology grew, and my emphasis became focused on hardware and building computers and finding out how they worked, down to their most basic elements. After graduating high school, I went on to start a degree in psychology and did that for a few years. After a while, I quickly realized that it wasn't exactly the right fit for me and I started work in retail sales as I always had somewhat of a knack with customer service.</p>
+  		<p>Since I was middle school, I've had an interest in web development. Throughout 
+		middle school, I independently worked with basic HTML, CSS, and CMS templating
+		engines. By high school, my passion for technology grew, and my emphasis became
+		focused on hardware and building computers and finding out how they worked, down 
+		to their most basic elements. After graduating high school, I went on to start a 
+		degree in psychology and did that for a few years. After a while, I quickly realized 
+		that it wasn't exactly the right fit for me and I started work in retail sales as I 
+		always had somewhat of a knack with customer service.</p>
 
-  		<p>It didn't take long and I became a manager with the largest retailer in the world. Despite the progression in my professional career, the interest in tech has not faded in the slightest. My friends and family know me as being the one who always is in the know of the latest tech and I could never shake the idea that I was missing out on something that I should have done.</p>
+  		<p>It didn't take long and I became a manager with the largest retailer in the world. 
+		Despite the progression in my professional career, the interest in tech has not faded 
+		in the slightest. My friends and family know me as being the one who always is in the 
+		know of the latest tech and I could never shake the idea that I was missing out on 
+		something that I should have done.</p>
 
-  		<p>Then, I realized after all this time that I should get back into what I had always had a passion for, I should get back into coding since I was so enthralled with it years ago. After all that we have done so far, I keep anxiously waiting to see what new languages and systems come out in the future that I can have the chance to potentially learn. I have never been more excited to see what the future holds, and I cannot wait and see what the future holds!</p>
-  	</div>
+  		<p>Then, I realized after all this time that I should get back into what I had always
+		had a passion for, I should get back into coding since I was so enthralled with it years
+		ago. After all that we have done so far, I keep anxiously waiting to see what new
+		languages and systems come out in the future that I can have the chance to potentially
+		learn. I have never been more excited to see what the future holds, and I cannot wait 
+		and see what the future holds!</p>
+	  </div>
+	  <div class="anchor" id="skills"></div>
 	</div>
+	<!-- End About Me -->
+
+	<!-- Skills -->
+	<div class="jumbotron">
+			<div class="col-md-10">
+				 <h1 class="display-4">Skills</h1>
+				  <p></p>
+				  <p>My skills include HTML, CSS, Javascript, JQuery, Javascript, NodeJS,
+				  Express, and Handlebars.</p>
+			</div>
+		<div class="anchor" id="portfolio"></div>
+	</div>
+
+	<!-- End Skills -->
+
+	<!-- Portfolio -->
+	<div class="jumbotron">
+			<div class="col-md-12">
+			 <h1 class="display-4">Portfolio</h1>
+			  <p>Below are some examples of projects that I have had the pleasure to either work on as a team, or independently on. I have thoroughly enjoyed working on each of these projects indidvidually for very different reasons, and I feel that each shows a different skill set that I have available. Below each image, there is a short description of the project, as well as a link to the GitHub repo, as well as a link to the live project, if it is available in the context of that project. </p>
+			  </div>
+			  <!-- NewsWise -->
+			  <div class="card">
+				  <div class="row">
+					  <div class="col-md-4">
+						  <img src="styles/images/newswise.png" class="w-100">
+					  </div>
+					  <div class="col-md-8 px-3">
+						  <div class="card-block px-3">
+							  <h4 class="card-title">NewsWise</h4>
+							  <p class="card-text">An app that is dedicated to aggregating news from multiple sources, as well as allowing users to submit news on their own as well. This page is in a BETA state. I worked on the user submissions page using Express, NodeJS, as well as the Handlebars and MySQL and Heroku deployment.</p>
+							  <a href="https://www.github.com/wmadhatterw/news-wise/" target="_blank" alt=" news wise github repo" class="btn btn-primary">Github
+							  </a>
+							 <a href="https://newswise.herokuapp.com" target="_blank" alt="heroku app page" class="btn btn-primary">Heroku
+							</a>
+				</div>
+			</div>
+		</div>
+	</div>
+			<br>
+	
+			<!-- Liri -->
+			  <div class="card">
+				  <div class="row">
+					  <div class="col-md-4">
+						  <img class="liri" src="styles/images/liri.png" class="w-100">
+					  </div>
+					  <div class="col-md-8 px-3">
+						  <div class="card-block px-3">
+							  <h4 class="card-title">Liri</h4>
+							  <p class="card-text">LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. Primarily used NodeJS server application, Twitter API, Spotify API, and OMDB API for this one.</p>
+							  <a href="https://github.com/kmbecker/liri-node-app" target="_blank" alt="liri node app" class="btn btn-primary">Github
+							  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+			<br>
+	
+			  <!-- MysterySinusTheatre -->
+			  <div class="card">
+				  <div class="row">
+					  <div class="col-md-4">
+						  <img class="sinus" src="styles/images/mysterysinus.png" class="w-100">
+					  </div>
+					  <div class="col-md-8 px-3">
+						  <div class="card-block px-3">
+							  <h4 class="card-title">Mystery Sinus Theatre 3000</h4>
+							  <p class="card-text">For this project the goal was t use multiple APIs in order to compile information from many different data sources. To accomplish this task we utilized GIPHY and OMDB APIs as well as manipulations of YouTube's url mechanics and use of iFrame and Wikipedia search mechanics. I was responsible for the layout of this page, focus being on use of webkit elements, CSS, and Bootstrap for usability and mobile responsiveness.</p>
+							  <a href="https://github.com/kmbecker/Project1" target="_blank" alt="Mystgery Sinus Theatre 3000 Github Repo" class="btn btn-primary">Github
+							  </a>
+							 <a href="https://kmbecker.github.io/Project1" target="_blank" alt="Mystery Sinus Theatre 3000 page" class="btn btn-primary">Website
+							</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="anchor" id="contact"></div>
+	</div>
+	<!-- End Portfolio -->
+
+	<!-- Contact -->
+	<div id="contactCard" class="jumbotron">
+			<div id="totheright" class="col-md-10">
+				 <h1 class="display-4">Contact</h1>
+				  <p>My Name is Kyle Becker, and I am a Junior Developer.</p>
+				  <p>My skills include HTML, CSS, Javascript, JQuery, Javascript, NodeJS,
+				  Express, and Handlebars.</p>
+				  <p>You can find me online!</p>
+				<p><a id="contactMe" href="http://linkedin.com/in/kyle-m-becker/" target="_blank"><span class="fa fa-linkedin"></span> Linkedin</a></p>
+				  </a>
+				  <a id="contactMe" href="https://github.com/kylembecker" target="_blank"><span class="fa fa-github"></span> GitHub</a>
+				  <br>
+				  <br>
+				  <p>Or you can email me at kyle@kylebecker.net</p>
+			</div>
+	</div>
+
+	<!-- End Contact -->
+
+</div>
+<!-- End Container -->
+
 	<!-- Footer -->
 	<footer class="footer">
     	<div class="container">
@@ -66,10 +190,9 @@
     	</div>
     </footer>
     <!-- End Footer -->
- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>	
-</html>
+	<script src="js/javascript.js"></script>
 </body>	
 </html>
