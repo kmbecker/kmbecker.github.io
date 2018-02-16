@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -12,12 +13,19 @@ body {
   /* background-size: 80%; */
 }
 
-#contactMe, a:link {
-  color: black;
+body > .container {
+  padding: 60px 15px 0;
 }
-#contactCard {
-  margin-bottom: 100px;
+
+.btn {
+  margin-bottom: 10px;
 }
+
+.card {
+ background: rgba(177, 178, 181, .2);
+ border-radius: 10px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -28,11 +36,9 @@ body {
   background-color: #f5f5f5;
 }
 
-.jumbotron {
-  background: rgba(160, 206, 253, .8);
-  margin-left: 20px;
-  margin-right: 20px; 
-  border-radius: 20px;
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .homepagePhoto {
@@ -42,17 +48,11 @@ body {
   border-radius: 50%;
 }
 
-body > .container {
-  padding: 60px 15px 0;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-code {
-  font-size: 80%;
+.jumbotron {
+  background: rgba(160, 206, 253, .8);
+  margin-left: 20px;
+  margin-right: 20px; 
+  border-radius: 20px;
 }
 
 .liri {
@@ -60,17 +60,25 @@ code {
   padding-top: 4%;
 }
 
+.portImage {
+  border-radius: 8px;
+}
+
 .sinus {
   width: 100%;
   padding-left: 8px;
-}
-
-.btn {
-  margin-bottom: 10px;
 }
 
 #affix {
     top: 0;
     width: 100%;
     z-index: 9999 !important;
+}
+
+#contactMe, a:link {
+  color: black;
+}
+
+#contactCard {
+  margin-bottom: 100px;
 }
